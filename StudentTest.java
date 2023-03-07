@@ -11,6 +11,6 @@ public class StudentTest {
         maryAnn.setGPA(3.3);
 
         System.out.println(john.toString());
-        // System.out.println(maryAnn.toString());
+        System.out.println(maryAnn.toString());
     }
 }

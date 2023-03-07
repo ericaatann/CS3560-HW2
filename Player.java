@@ -1,9 +1,12 @@
 public class Player {
     private String name;
-    private boolean expert;
+    private boolean isExpert;
 
-    public Player(String name, boolean expert){
+    public Player(String name, boolean isExpert) {
         this.name = name;
-        this.expert = expert;
+        this.isExpert = isExpert;
     }
+
+    // Other methods for Player class
+
 }
