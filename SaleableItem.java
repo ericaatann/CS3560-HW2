@@ -1,3 +1,3 @@
-public class SaleableItem {
-    
+public interface SaleableItem{
+    void sellCopy();
 }
