@@ -14,8 +14,9 @@ public class Employee {
     public class Professor extends Employee {
         private String field;
 
-        public Professor(String name, int hours) {
+        public Professor(String name, int hours, String field) {
             super(name, hours);
+            this.field = field;
         }
 
         public double calculateSalary() {
@@ -27,8 +28,9 @@ public class Employee {
     public class Staff extends Employee {
         private int role;
 
-        public Staff(String name, int hours) {
+        public Staff(String name, int hours, int role) {
             super(name, hours);
+            this.role = role;
         }
 
     }
